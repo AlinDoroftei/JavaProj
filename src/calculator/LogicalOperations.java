@@ -168,55 +168,56 @@ public class LogicalOperations {
     }
 
     public void counting100While(int from) {
-    int count=from;
-    do{
-        System.out.print(count+" ");
-        count++;}
-    while(count<=100);
+        int count = from;
+        do {
+            System.out.print(count + " ");
+            count++;
+        }
+        while (count <= 100);
     }
 
-public void countingBackWhile (int from){
-        int x=from;
-        do{
-            System.out.print(x+ " ");
+    public void countingBackWhile(int from) {
+        int x = from;
+        do {
+            System.out.print(x + " ");
             x--;
-        }while (x>=-100);
+        } while (x >= -100);
     }
 
-    public void countingBtwTwoWhile (int from, int to){
+    public void countingBtwTwoWhile(int from, int to) {
         int x = from;
         int y = to;
-        do{
-            System.out.print(x+ " ");
+        do {
+            System.out.print(x + " ");
             x++;
-        }while (x<=y);
+        } while (x <= y);
     }
 
     public void countingFromMinToMaxWhile(int x, int y) {
         int min = Math.min(x, y);
         int max = Math.max(x, y);
-        do{
-            System.out.print(min+" ");
+        do {
+            System.out.print(min + " ");
             min++;
-        }while(min<=max);
+        } while (min <= max);
     }
 
     public void evenCountingTo100While(int from) {
-        int x =from;
-        do{
-            if(x %2==0)
-            System.out.print(x+" ");
+        int x = from;
+        do {
+            if (x % 2 == 0)
+                System.out.print(x + " ");
             x++;
-        }while (x<=100);
+        } while (x <= 100);
     }
 
     public void oddCountingTo100While(int from) {
-        int x =from;
-        do{
-            if(x %2!=0)
-                System.out.print(x+" ");
+        int x = from;
+        do {
+            if (x % 2 != 0)
+                System.out.print(x + " ");
             x++;
-        }while (x<=100);
+        } while (x <= 100);
     }
 
     public void whileAverageFromTwo(int from, int to) {
@@ -224,7 +225,7 @@ public void countingBackWhile (int from){
         int sum = 0;
         int count = 0;
         while (from <= to) {
-            sum = x+sum;
+            sum = x + sum;
             from++;
             count++;
         }
@@ -235,12 +236,12 @@ public void countingBackWhile (int from){
     }
 
 
-    public double getAverageDivisible7(int from, int to){
+    public double getAverageDivisible7(int from, int to) {
         int x = from;
         int sum = 0;
         double counter = 0;
-        while(x <= to){
-            if(x % 7 == 0){
+        while (x <= to) {
+            if (x % 7 == 0) {
                 sum = x + sum;
             }
             x++;
@@ -248,14 +249,95 @@ public void countingBackWhile (int from){
         }
         System.out.println(sum);
         System.out.println(counter);
-        return sum/counter;
+        return sum / counter;
+    }
+
+    public int[] populateArrayToNumber(int max) {
+        int[] myArray = new int[max];
+        for (int i = 0; i < myArray.length; i++) {
+            myArray[i] = i + 1;
+        }
+        return myArray;
+    }
+
+    public void printArray(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + ", ");
+        }
+    }
+
+    public double sumOfArray(int[] array) {
+        float sumArray = array[0];
+        for (int i = 1; i < array.length; i++) {
+            sumArray = sumArray + array[i];
+        }
+        return sumArray;
+    }
+
+    public double getAverageFromArray(int[] array) {
+        return sumOfArray(array) / array.length;
+    }
+
+    public void populateArrayEvenNumber(int[] array) {
+        int pos = 0;
+        for (int i = 1; i <= array.length; i++) {
+            if (i % 2 == 0) {
+                array[pos] = i;
+                pos++;
+            }
+        }
+
+    }
+
+    public boolean isValueInArray(String[] array, String value) {
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] == value) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public String checkNumberInArray(int[] array, int nb) {
+        int i = 0;
+        while (i < array.length) {
+            if (array[i] == nb) {
+                return ("Numarul " + nb + " se gaseste pe pozitia " + String.valueOf(i));
+            } else {
+                i++;
+            }
+        }
+        return "Numarul nu a fost gasit!";
+    }
+
+    public void lines() {
+        char[] line = {'-', '-', '-', '-', '-', '-', '-', '-', '-', '-',};
+        for (int i = 0; i < 10; i++) {
+            System.out.println(line);
+        }
+    }
+
+//8. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip
+//numar. Metoda sa verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar.
+//Apelati metoda in main() pentru a verifica daca functioneaza.
+
+    public int[] ignoreNumberArray(int[] array, int nb) {
+        int i = 0;
+        int j = 0;
+        int array2[] = new int[array.length];
+        for (i = 0; i < array.length; i++) {
+            if (array[i] == nb) {
+                continue;
+            }
+            int[] newArray = new int[j];
+            for (i = 0; i < j; i++);
+            array[i] = array2[i];
+            return newArray;
+
+        }
+        return null;
     }
 }
-
-
-
-
-
 
 
 

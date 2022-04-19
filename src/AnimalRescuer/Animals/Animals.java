@@ -1,6 +1,6 @@
-package AnimalRescuer;
+package AnimalRescuer.Animals;
 
-public class Dog {
+public class Animals {
     private String color;
     private double weigth;
     private int ageInMonths;
@@ -12,93 +12,85 @@ public class Dog {
     private short hungryFeeling;
     private short moodCondition;
 
-
-    public void eat() {
-        System.out.println("Eating dog food");
+    public String getColor() {
+        return color;
     }
 
-    public void sleep() {
-        System.out.println("zzzZZZ");
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public void run() {
-        System.out.println("Runing ");
-    }
-
-    public void play() {
-        System.out.println("playing fetch");
-    }
-
-    public void setColor(String Color) {
-        this.color = Color;
-    }
-
-    public String getcolor() {
-        return this.color;
+    public double getWeigth() {
+        return weigth;
     }
 
     public void setWeigth(double weigth) {
         this.weigth = weigth;
     }
 
-    public double getWeigth() {
-        return this.weigth;
+    public int getAgeInMonths() {
+        return ageInMonths;
     }
 
     public void setAgeInMonths(int ageInMonths) {
         this.ageInMonths = ageInMonths;
     }
 
-    public int getAgeInMonths() {
-        return this.ageInMonths;
+    public String getRace() {
+        return race;
     }
 
     public void setRace(String race) {
         this.race = race;
     }
 
-    public String getRace() {
-        return this.race;
+    public String getName() {
+        return name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public String getName() {
-        return this.name;
+    public String getFavouriteFood() {
+        return favouriteFood;
     }
 
     public void setFavouriteFood(String favouriteFood) {
         this.favouriteFood = favouriteFood;
     }
 
-    public String getFavouriteFood() {
-        return this.favouriteFood;
+    public boolean isMale() {
+        return isMale;
+    }
+
+    public void setMale(boolean male) {
+        isMale = male;
+    }
+
+    public short getHealthCondition() {
+        return healthCondition;
     }
 
     public void setHealthCondition(short healthCondition) {
         this.healthCondition = healthCondition;
     }
 
-    public short getHealthCondition() {
-        return this.healthCondition;
+    public short getHungryFeeling() {
+        return hungryFeeling;
     }
 
     public void setHungryFeeling(short hungryFeeling) {
         this.hungryFeeling = hungryFeeling;
     }
 
-    public short getHungryFeeling() {
-        return this.hungryFeeling;
+    public short getMoodCondition() {
+        return moodCondition;
     }
 
     public void setMoodCondition(short moodCondition) {
         this.moodCondition = moodCondition;
     }
 
-    public short getMoodCondition() {
-        return this.moodCondition;
-    }
 
 }

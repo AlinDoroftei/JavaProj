@@ -1,6 +1,8 @@
+package calculator;
+
 import calculator.Calculator;
 import calculator.LogicalOperations;
-public class MainLab12 {
+public class MainLab4 {
     public static void main(String[] args) {
         LogicalOperations op = new LogicalOperations();
         Calculator calc = new Calculator();
