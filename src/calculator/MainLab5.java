@@ -48,8 +48,8 @@ public class MainLab5 {
 //7.Creati o metoda care sa afiseze urmatoarea grila, folosind un array:
 //            op.lines();
 
-            int[] myyArray={1,2,3,4,5,6,7,8};
-            op.printArray(op.ignoreNumberArray(myyArray,5));
+//            int[] myyArray={1,2,3,4,5,6,7,8};
+//            op.printArray(op.ignoreNumberArray(myyArray,5));
 
 
 

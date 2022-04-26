@@ -1,5 +1,8 @@
 package calculator;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LogicalOperations {
 
     public int getMax(int first, int second) {
@@ -317,10 +320,6 @@ public class LogicalOperations {
         }
     }
 
-//8. Creati o metoda care sa primeasca un parametru de tip array de numere, populat cu valori, si un parametru de tip
-//numar. Metoda sa verifice daca numarul exista in array, si daca da, sa returneze array-ul primit, fara acel numar.
-//Apelati metoda in main() pentru a verifica daca functioneaza.
-
     public int[] ignoreNumberArray(int[] array, int nb) {
         int i = 0;
         int j = 0;
@@ -337,7 +336,69 @@ public class LogicalOperations {
         }
         return null;
     }
+    public List<Integer> getPopulatedList(int max) {
+        List<Integer> myList = new ArrayList<>();
+        for (int i = 1; i <= max; i++) {
+            myList.add(i);
+        }
+        return myList;
+    }
+
+    public void printList(List<Integer> myList){
+        for (int i = 0; i<myList.size(); i++){
+            System.out.println(myList.get(i));
+        }
+    }
+
+    public List<Integer> addToList(List<Integer> myList, int nb) {
+        myList.add(nb);
+        return myList;
+    }
+
+    public void showNbList(List<Integer> myList, int nb) {
+        for(int i=nb; i<myList.size();i++){
+            System.out.println(myList.get(i));
+        }
+    }
+
+    public void showNbListDescending (List<Integer> myList){
+        for (int i=myList.size()-1; i>=0; i--){
+            System.out.println(myList.get(i));
+        }
+    }
+
+    public List<String> addStringToList (List<String> myList, int index, String txt){
+        myList.add(index, txt);
+        return myList;
+    }
+
+    public List<Integer> addToLMyist (List<Integer> myList, int nb){
+        myList.add(0,nb);
+        return myList;
+    }
+
+    public void posAndValueList(List<Integer> myList){
+        for (int i = 0; i<myList.size(); i++)
+            System.out.println("Pe pozitia "+i+" valoare este "+myList.get(i));
+
+    }
+
+    public int biggestNumberList (List<Integer> nb) {
+        int max = 0;
+        for (int i = 0; i < nb.size(); i++) {
+            if (nb.get(i)>max) {
+                max = nb.get(i);
+            }
+        }
+        return max;
+    }
 }
+
+
+
+
+
+
 
 
 
