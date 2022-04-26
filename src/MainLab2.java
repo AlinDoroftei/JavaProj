@@ -1,6 +1,6 @@
 import calculator.Calculator;
 
-public class Main2 {
+public class MainLab2 {
 
 
     public static void main(String[] args) {

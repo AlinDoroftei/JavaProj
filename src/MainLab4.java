@@ -1,5 +1,3 @@
-package calculator;
-
 import calculator.Calculator;
 import calculator.LogicalOperations;
 public class MainLab4 {

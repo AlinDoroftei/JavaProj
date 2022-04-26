@@ -1,4 +1,5 @@
-package calculator;
+import calculator.Calculator;
+import calculator.LogicalOperations;
 
 import java.util.ArrayList;
 import java.util.List;

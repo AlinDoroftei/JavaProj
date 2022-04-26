@@ -1,6 +1,7 @@
-package calculator;
+import calculator.Calculator;
+import calculator.LogicalOperations;
 
-public class Main3 {
+public class MainLab3 {
 //1. Given two numbers, see which one is the greatest and print it
     public static void main(String[] args) {
         LogicalOperations op = new LogicalOperations();

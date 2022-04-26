@@ -1,5 +1,4 @@
-package calculator;
-
+import calculator.LogicalOperations;
 import jdk.swing.interop.SwingInterOpUtils;
 
 public class MainLab5 {
