@@ -9,6 +9,18 @@ public class Veterinary extends Human{
         private String specialization;
 
         @Override
+        public void sleep() {
+        }
+
+        @Override
+        public void run() {
+        }
+
+        @Override
+        public void eat() {
+        }
+
+        @Override
         public String getName() {
                 return name;
         }

@@ -4,9 +4,6 @@ import AnimalRescuer.Animals.Animals;
 
 public class Cat extends Animals {
 
-    public void eat(){
-        System.out.println("Eating cat food");
-    }
     public void sleep(){
         System.out.println("zzzZZZ");
     }
@@ -17,4 +14,11 @@ public class Cat extends Animals {
         System.out.println("playing");
     }
 
+    public void speak(){
+        System.out.println("Miau");}
+
+    @Override
+    public void eat() {
+        System.out.println("eat cat food");
+    }
 }

@@ -2,27 +2,75 @@ package calculator;
 
 public class Calculator {
 //2. Scrieti care o metoda java pentru fiecare din urmatoarele operatii matematice: adunare, scadere, inmultire, impartire.
+    public int sum(int firstNumber, int secondNumber){
+    return firstNumber+ secondNumber;
+    }
+
+    public int sum(int firstNumber, int secondNumber, int thirdNumber){
+        return firstNumber+ secondNumber+ thirdNumber;
+    }
+
+    public double sum (int firstNumber, double secondNumber){
+        return firstNumber+secondNumber;
+    }
+
+    public double sum (double firstNumber, int secondNumber){
+        return firstNumber+secondNumber;
+    }
 
     public double sum(double firstNumber, double secondNumber) {
-        double resultSum = firstNumber + secondNumber;
-        return resultSum;
+        return  firstNumber + secondNumber;
     }
 
+    public double sum(double firstNumber, double secondNumber, double thirdNumber) {
+        return firstNumber + secondNumber + thirdNumber;
+    }
     public int substract(int firstNumber, int secondNumber) {
-        int resultS = firstNumber - secondNumber;
-        return resultS;
+        return  firstNumber - secondNumber;
     }
 
+    public double substract(double firstNumber, int secondNumber) {
+        return firstNumber - secondNumber;
+    }
+
+    public double substract(int firstNumber, double secondNumber) {
+        return firstNumber - secondNumber;
+        }
+
+    public double substract(double firstNumber, double secondNumber) {
+        return firstNumber - secondNumber;
+        }
+
+    public double multipli(double firstNumber, int secondNumber) {
+        return firstNumber * secondNumber;
+    }
+
+    public double multipli(int firstNumber, double secondNumber) {
+        return firstNumber * secondNumber;
+    }
+    public double multipli(double firstNumber, double secondNumber) {
+        return  firstNumber * secondNumber;
+    }
     public int multipli(int firstNumber, int secondNumber) {
-        int resultM = firstNumber * secondNumber;
-        return resultM;
+        return firstNumber * secondNumber;
     }
 
     public double divide(double firstNumber, double secondNumber) {
-        double resultD = firstNumber / secondNumber;
-        return resultD;
-
+        return firstNumber / secondNumber;
     }
+
+    public double divide(double firstNumber, int secondNumber) {
+        return firstNumber / secondNumber;
+    }
+
+    public double divide(int firstNumber, double secondNumber) {
+        return firstNumber / secondNumber;
+    }
+
+    public int divide(int firstNumber, int secondNumber) {
+        return firstNumber / secondNumber;
+    }
+
 //3.
 //                System.out.println("" +
 //                "    J      a   v     v   a   \n" +

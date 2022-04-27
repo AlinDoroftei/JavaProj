@@ -392,6 +392,7 @@ public class LogicalOperations {
         }
         return max;
     }
+
 }
 
 

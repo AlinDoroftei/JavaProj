@@ -65,6 +65,8 @@ public class MainLab6 {
 // 8.Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea.
 //        System.out.println(op.biggestNumberList(randomNumbers));
 
+//9.Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista,
+
     }
 }
 

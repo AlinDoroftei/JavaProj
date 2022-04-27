@@ -1,7 +1,12 @@
+import calculator.Calculator;
+
 public class Main {
 
     public static void main(String[] args) {
 
+        Calculator calc = new Calculator();
+
+        System.out.println(calc.substract(7.8,2));
         double result = sum(2, 3);
         System.out.println(result * 2);
         System.out.println("Rezultatul este: " + sum(3, 5));

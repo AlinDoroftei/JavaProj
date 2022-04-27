@@ -14,10 +14,10 @@ public class MainLab2 {
         System.out.println("Rezultatul scaderii este " + resultS);
 
 
-        int resultM = calc.multipli(7, 9);
+        int resultM = calc.multipli(7,9);
         System.out.println("rezultatul inmultirii este " + resultM);
 
-        double resultD = calc.divide(33, 6);
+        double resultD = calc.divide(33, 6.3);
         System.out.println("Rezultatul impartirii este " + resultD);
 
 //4.

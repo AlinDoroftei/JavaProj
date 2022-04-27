@@ -1,6 +1,6 @@
 package AnimalRescuer.Humans;
 
-public class Human {
+public abstract class Human {
     private String eyeColor;
     private double weigth;
     private double heightInCm;
@@ -11,6 +11,10 @@ public class Human {
     private String name;
     private String religion;
     private boolean isMale;
+
+    public abstract void sleep();
+    public abstract void run();
+    public abstract void eat();
 
     public String getEyeColor() {
         return eyeColor;

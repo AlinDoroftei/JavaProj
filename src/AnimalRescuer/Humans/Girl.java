@@ -1,16 +1,13 @@
 package AnimalRescuer.Humans;
 
-public class Girl extends Human {
+public abstract class Girl extends Human {
 
-    public void eat(){
-        System.out.println("");
-    }
-    public void sleep(){
-        System.out.println("");
-    }
-    public void run(){
-        System.out.println("");
-    }
+    public abstract void eat();
+
+    public abstract void sleep();
+
+    public abstract void run();
+
     public void play(){
         System.out.println("");
     }

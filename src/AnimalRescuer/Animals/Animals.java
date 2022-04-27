@@ -1,6 +1,6 @@
 package AnimalRescuer.Animals;
 
-public class Animals {
+public abstract class Animals {
     private String color;
     private double weigth;
     private int ageInMonths;
@@ -23,6 +23,14 @@ public class Animals {
     public double getWeigth() {
         return weigth;
     }
+
+    public abstract void speak();
+
+    public abstract void eat();
+
+    public abstract void play();
+
+    public abstract void sleep();
 
     public void setWeigth(double weigth) {
         this.weigth = weigth;
