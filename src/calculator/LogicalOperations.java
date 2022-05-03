@@ -392,6 +392,11 @@ public class LogicalOperations {
         }
         return max;
     }
+//5. In clasa LogicalOp, creati o metoda care sa primeasca un array de numere ca si parametru, si un numar. Fara a folosi conditii, si folosind
+//un try-catch, afisati valoarea de pe pozitia numarului primit, iar daca valoarea numarului este mai mare decat numarul de pozitii din array,
+//afisati textul: "Inside catch, number too large".
+
+
 
 }
 

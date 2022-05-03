@@ -8,11 +8,11 @@ public class MainLab5 {
 //afiseze progresul in consola pe tot parcursul. Apelati metoda in main() pentru a verifica daca functioneaza.
 
         LogicalOperations op = new LogicalOperations();
-        int[] myArray = op.populateArrayToNumber(100);
-
-//        op.printArray(myArray);
+//        int[] myArray = op.populateArrayToNumber(100);
 //
-        int[] testArray = {12, 3, 6765, 123, 6, 856};
+//        op.printArray(myArray);
+////
+//        int[] testArray = {12, 3, 6765, 123, 6, 856};
 
 
 
@@ -22,7 +22,7 @@ public class MainLab5 {
 //
 //        int[] evenArray = new int[50];
 //        op.populateArrayEvenNumber(evenArray);
-//
+////
 //        op.printArray(evenArray);
 //
 //4. Creati o metoda care sa primeasca un parametru de tip array de numere, si sa fie populat cu valori. Metoda sa
