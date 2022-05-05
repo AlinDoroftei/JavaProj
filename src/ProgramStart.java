@@ -1,9 +1,11 @@
 import calculator.Calculator;
+import calculator.LogicalOperations;
 import calculator.Read;
 
 public class ProgramStart {
     Read read = new Read();
     Calculator calc = new Calculator();
+    LogicalOperations op=new LogicalOperations();
 
     public void printMenu(){
         System.out.println("Hello!\n" +
@@ -12,9 +14,10 @@ public class ProgramStart {
                 "2. Subtraction\n" +
                 "3. Multiplication\n" +
                 "4. Division\n" +
+                "5. Average\n"+
                 "0. Exit");
-
     }
+
 
     public boolean runMenuOption(){
         printMenu();
@@ -35,6 +38,9 @@ public class ProgramStart {
                 return true;
             case 4:
                 doDivision();
+                return true;
+            case 5:
+                doAverage();
                 return true;
             default:
                 System.out.println("Incorrect option, try again!");
@@ -68,5 +74,8 @@ public class ProgramStart {
         int first= read.getInt();
         int second= read.getInt();
         System.out.println("The result of the division is: "+ calc.divide(first,second));
+    }
+    private void doAverage(){
+        System.out.println(op.averageNnumbers());
     }
 }

@@ -1,3 +1,4 @@
+import calculator.Calculator;
 import calculator.LogicalOperations;
 import jdk.swing.interop.SwingInterOpUtils;
 
@@ -30,6 +31,10 @@ public class MainLab5 {
 
 //        System.out.println(op.getAverageFromArray(myArray));
 //        System.out.println(op.getAverageFromArray(testArray));
+
+//4.1 Average for n numbers.
+        Calculator calc = new Calculator();
+        System.out.println(op.averageNnumbers());
 
 //5.Creati o metoda care sa primeasca un parametru de tip array de string-uri, populat cu valori, si un parametru de tip String.
 //Metoda sa verifice daca valoarea string-ului primit se regaseste in array-ul primit, iar daca da sa returneze true iar daca nu, sa returneze false.

@@ -2,6 +2,7 @@ package calculator;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class LogicalOperations {
 
@@ -161,6 +162,22 @@ public class LogicalOperations {
         return average;
     }
 
+    public String averageNnumbers () {
+        int nb;
+        double res=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("For how many numbers do you wants to calculate average? ");
+        nb=sc.nextInt();
+        int a[]=new int[nb];
+        System.out.println("enter "+nb+" numbers");
+        for(int i=0;i<nb;i++)
+            a[i]=sc.nextInt();
+        for(int i=0;i<nb;i++)
+            res =res+a[i];
+//        System.out.println("Average="+res/nb);
+        return "Average = " +nb;
+    }
+
     public static void stars(int stars) {
         for (int i = stars; i >= 1; i--) {
             for (int j = 1; j < i; j++) {
@@ -280,6 +297,7 @@ public class LogicalOperations {
     public double getAverageFromArray(int[] array) {
         return sumOfArray(array) / array.length;
     }
+
 
     public void populateArrayEvenNumber(int[] array) {
         int pos = 0;

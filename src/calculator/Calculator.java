@@ -1,5 +1,7 @@
 package calculator;
 
+import java.util.Scanner;
+
 public class Calculator {
 //2. Scrieti care o metoda java pentru fiecare din urmatoarele operatii matematice: adunare, scadere, inmultire, impartire.
     public int sum(int firstNumber, int secondNumber){
