@@ -1,3 +1,5 @@
+package MainLab;
+
 import calculator.Calculator;
 import calculator.LogicalOperations;
 

@@ -1,3 +1,5 @@
+package JavaProgram;
+
 import calculator.Read;
 
 import java.util.Scanner;
@@ -15,7 +17,7 @@ public class Login {
         String givenPassword = scan.next();
 
         if(username.equals(givenUserName) && password.equals(givenPassword)){
-            System.out.println("Login successful");
+            System.out.println("JavaProgram.Login successful");
             return true;
         }else{
             System.out.println("Wrong username or password");

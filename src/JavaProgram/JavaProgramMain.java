@@ -1,3 +1,5 @@
+package JavaProgram;
+
 public class JavaProgramMain {
     public static void main(String[] args) {
         ProgramStart ps = new ProgramStart();

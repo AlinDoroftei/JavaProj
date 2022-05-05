@@ -1,3 +1,5 @@
+package MainLab;
+
 import calculator.Calculator;
 
 public class MainLab2 {

@@ -1,3 +1,5 @@
+package JavaProgram;
+
 import calculator.Calculator;
 import calculator.LogicalOperations;
 import calculator.Read;

@@ -1,3 +1,5 @@
+package MainLab;
+
 import calculator.Calculator;
 import calculator.LogicalOperations;
 public class MainLab4 {
@@ -20,7 +22,7 @@ public class MainLab4 {
 //intre cele doua numere primite, pornind de la primul parametru primit, pana la cel de-al doilea(ex: daca int x e
 //primul parametru iar int y  este cel de-al doilea, numaratoarea sa se faca de la x, la y
 //Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
-//Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+//Apelati metoda in clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza.
 
 //        op.countingBtw(5,8);
 
@@ -29,7 +31,7 @@ public class MainLab4 {
 //daca int x e primul parametru iar int y  este cel de-al doilea, daca x  este mai mare decat y,  atunci numaratoarea
 //sa fie de la y la x).
 //Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
-//Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza
+//Apelati metoda in clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza
 
 //        op.countingFromMinToMax(8,2);
 
@@ -43,13 +45,13 @@ public class MainLab4 {
 
 //7. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar. Metoda sa adune toate numerele pana
 // la 100, pornind de la numarul primit ca si parametru, iar la final sa returneze rezultatul. Apelati metoda in
-// clasa Main, metoda main() pentru a verifica daca functioneaza.
+// clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza.
 
 //        System.out.println(op.sumTo100(1));
 
 //8. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar. Metoda sa adune toate numerele pana
 //la 100, pornind de la numarul primit ca si parametru, si sa calculeze media numerelor. La final, metoda sa returneze
-//media. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+//media. Apelati metoda in clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza.
 
 //        System.out.println(op.averageFromGivenTo100(98));
 
@@ -60,7 +62,7 @@ public class MainLab4 {
 //1. Creati o metoda in clasa LogicalOp, care sa primeste un numar ca si parametru. Metoda sa verifice numrul primit, si
 //sa afiseze in consola o numaratoare pana la 100, pornind de la numarul primit ca si parametru. Atentie la crearea
 //tipului metodei, deoarece metoda afiseaza, nu returneaza.
-//Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+//Apelati metoda in clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza.
 
 //        op.counting100While(89);
 
@@ -93,12 +95,12 @@ public class MainLab4 {
 
 //7. Creati o metoda care sa adune toate numerele din intervalul 111 si 8899. Sa se afiseze suma totala, iar dupa aceea
 // sa se calculeze si afiseze media numerelor din acel interval. Introduceti o variabila int count in metoda, pentru a
-// numara toate numerele din interval. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+// numara toate numerele din interval. Apelati metoda in clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza.
 
 //        op.whileAverageFromTwo(111,8899);
 
 // 8. Creati o metoda care sa primeasca doi parametrii de tip numar, si sa returneze media numerelor divizibile cu 7,
-// din acel interval. Apelati metoda in clasa Main, metoda main() pentru a verifica daca functioneaza.
+// din acel interval. Apelati metoda in clasa MainLab.Main, metoda main() pentru a verifica daca functioneaza.
 
         System.out.println(op.getAverageDivisible7(7,14));
     }
